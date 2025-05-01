@@ -6,17 +6,17 @@
 
 | Component             | Detail                  |
 |-----------------------|-------------------------|
-| **CPU**               | Ryzen 7 Pro 4750U       |
-| **GPU**               | Vega 7                  |
+| **CPU**               | Ryzen 5 Pro 4650U       |
+| **GPU**               | Vega 6                  |
 | **RAM**               | 32GB                    |
 | **Motherboard**       | 20UDCTO1WW              |
 | **Audio Codec**       | ALC257                  |
 | **Ethernet Card**     | RTL811                  |
 | **Wifi/BT Card**      | Intel AX200             |
 | **Touchpad Devices**  | Synaptics Glass Touchpad|
-| **BIOS Version**      | 1.46                  |
-| **Storage**           | RKT303.3 2TB NVME       |
-| **OpenCore Version**  | 0.99                    |
+| **BIOS Version**      | 1.46                    |
+| **Storage**           | Adata Legend 850 Lite   |
+| **OpenCore Version**  | 1.0.4                   |
 | **Device**            | Thinkpad T14 Gen 1 AMD  |
 
 ## 💻 Supported macOS Versions
@@ -47,6 +47,7 @@
 - **Airdrop**: Not functioning due to Intel cards not being native, works only on Broadcom cards.
 - **Screen Mirroring**: Not available unless using a paid service such as airserver.
 - **Brightness**: Adjustment is too rapid and therefore stops at a certain point.
+- **GPU Acceleraion**: Nootedred does not support gpu acclerator, it cause some glitch on chrome, vscode, discord, etc. 
 
 </details>
 
